@@ -112,7 +112,6 @@ void OdliczCzas(void){
 			start=ClockCycles();
 			started=1;
 			cout << "poczatek pomiaru" <<endl;
-			poprzednia=c;
 			return;
 		}
 	if(started ==1){
