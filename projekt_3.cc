@@ -205,7 +205,7 @@ int fd, rd;
 	}
 	
 	
-	if(c!=poprzednia)
+	if(usredniona!=poprzednia)
 		OdliczCzas();
 	nanosleep(&nanoczas,NULL);
 	poprzednia=c;
