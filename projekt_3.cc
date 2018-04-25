@@ -191,3 +191,29 @@ void ustaw(void){
 		}
 		printf("parametry portu ustawione \n");
 }
+/*
+void odczytbeta(void){
+
+int fd, rd;
+	char literyzportu[9]; 
+	
+	fd=open("/dev/ser1", O_RDONLY);
+	read(fd, &c, 1);
+	literyzportu[8]=c;
+	for(int i=8;i>1;i--){ 
+	literyzportu[i-1] = literyzporu[i];
+	}
+	
+	
+	if(c!=poprzednia)
+		OdliczCzas();
+	nanosleep(&nanoczas,NULL);
+	poprzednia=c;
+	flushall();
+	close(fd);
+
+
+}
+
+
+*/
